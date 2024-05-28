@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import  {Button,Navbar,Container,Nav,NavDropdown}  from "react-bootstrap";
+import { FcApproval,FcAlarmClock } from "react-icons/fc";
 
 
 function About() {
@@ -18,6 +19,7 @@ export function About1() {
         <h1>sdjkfjhsjdfhjksdh fjsh fjh sddj fhdsf</h1>
         <p>sjddfhjkshdfj</p>
         <div className='heading'>ppppppppppppppppppppnjjjjhf</div>
+        <h2 className='heading1'>this is heading <FcApproval></FcApproval>  <FcAlarmClock></FcAlarmClock></h2>
       </div>
 
       <div className='container border m-5 bg-danger text-center text-white'>
