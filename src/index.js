@@ -10,6 +10,7 @@ import Mylandingpage from './modules/dashboard/Mylandingpage';
 import Myhome from './modules/dashboard/Myhome';
 import Myfetch from './modules/dashboard/Myfetch';
 import Myaxios from './modules/dashboard/Myaxios';
+import Mydetailspage from './modules/dashboard/Mydetailspage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
           <Route path='landing' element={<Mylandingpage/>}>
               <Route path='' element={<Myhome/>}/>
               <Route path='fetch' element={<Myfetch/>}/>
+              <Route path='fetch/view/:id' element={<Mydetailspage/>}/>
               <Route path='axios' element={<Myaxios/>}/>
           </Route>
           <Route path='*' element={<Myerrorpage/>}/>
