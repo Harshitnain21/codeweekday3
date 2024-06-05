@@ -11,6 +11,8 @@ import Myhome from './modules/dashboard/Myhome';
 import Myfetch from './modules/dashboard/Myfetch';
 import Myaxios from './modules/dashboard/Myaxios';
 import Mydetailspage from './modules/dashboard/Mydetailspage';
+import Mygraphpage from './modules/dashboard/Mygraphpage';
+import Mypropspage from './modules/dashboard/Mypropspage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +25,8 @@ root.render(
               <Route path='fetch' element={<Myfetch/>}/>
               <Route path='fetch/view/:id' element={<Mydetailspage/>}/>
               <Route path='axios' element={<Myaxios/>}/>
+              <Route path='mygraph' element={<Mygraphpage/>}/>
+              <Route path='props' element={<Mypropspage/>}/>
           </Route>
           <Route path='*' element={<Myerrorpage/>}/>
       </Routes>
