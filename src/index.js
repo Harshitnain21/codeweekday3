@@ -13,6 +13,7 @@ import Myaxios from './modules/dashboard/Myaxios';
 import Mydetailspage from './modules/dashboard/Mydetailspage';
 import Mygraphpage from './modules/dashboard/Mygraphpage';
 import Mypropspage from './modules/dashboard/Mypropspage';
+import Myforms from './modules/dashboard/Myforms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
               <Route path='axios' element={<Myaxios/>}/>
               <Route path='mygraph' element={<Mygraphpage/>}/>
               <Route path='props' element={<Mypropspage/>}/>
+              <Route path='myform' element={<Myforms/>}/>
           </Route>
           <Route path='*' element={<Myerrorpage/>}/>
       </Routes>

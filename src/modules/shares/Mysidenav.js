@@ -16,7 +16,7 @@ function Mysidenav() {
                         <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <li><Link to="mygraph" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Graph</Link></li>
                             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Props</Link></li>
-                            <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">forms</a></li>
+                            <li><Link to="myform" className="link-body-emphasis d-inline-flex text-decoration-none rounded">forms</Link></li>
                         </ul>
                     </div>
                 </li>
