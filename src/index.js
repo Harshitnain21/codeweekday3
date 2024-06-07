@@ -14,6 +14,7 @@ import Mydetailspage from './modules/dashboard/Mydetailspage';
 import Mygraphpage from './modules/dashboard/Mygraphpage';
 import Mypropspage from './modules/dashboard/Mypropspage';
 import Myforms from './modules/dashboard/Myforms';
+import Mycustomform from './modules/dashboard/Mycustomform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
               <Route path='mygraph' element={<Mygraphpage/>}/>
               <Route path='props' element={<Mypropspage/>}/>
               <Route path='myform' element={<Myforms/>}/>
+              <Route path='cusform' element={<Mycustomform/>}/>
           </Route>
           <Route path='*' element={<Myerrorpage/>}/>
       </Routes>
