@@ -18,6 +18,7 @@ function Mysidenav() {
                             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Props</Link></li>
                             <li><Link to="myform" className="link-body-emphasis d-inline-flex text-decoration-none rounded">forms</Link></li>
                             <li><Link to="cusform" className="link-body-emphasis d-inline-flex text-decoration-none rounded">cusform</Link></li>
+                            <li><Link to="lazy" className="link-body-emphasis d-inline-flex text-decoration-none rounded">lazyloading</Link></li>
                         </ul>
                     </div>
                 </li>
