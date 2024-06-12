@@ -85,3 +85,21 @@
     overflow-y: auto;
   }
   
+
+
+  .page1
+  {
+    width:100%;
+    height: 500px;
+    background-color: red;
+    font-size: 30px;
+    
+  }
+  .page2
+  {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    font-size: 40px;
+
+  }

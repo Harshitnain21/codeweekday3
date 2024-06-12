@@ -15,6 +15,7 @@ import Mygraphpage from './modules/dashboard/Mygraphpage';
 import Mypropspage from './modules/dashboard/Mypropspage';
 import Myforms from './modules/dashboard/Myforms';
 import Mycustomform from './modules/dashboard/Mycustomform';
+import Myconditional from './modules/dashboard/Myconditional';
 // import Mylazyloading from './modules/dashboard/Mylazyloading';
 
 const Mylazyloading = lazy(()=> import('./modules/dashboard/Mylazyloading'))
@@ -28,6 +29,7 @@ root.render(
           <Route path='landing' element={<Mylandingpage/>}>
               <Route path='' element={<Myhome/>}/>
               <Route path='fetch' element={<Myfetch/>}/>
+              <Route path='conditional' element={<Myconditional/>}/>
               <Route path='fetch/view/:id' element={<Mydetailspage/>}/>
               <Route path='axios' element={<Myaxios/>}/>
               <Route path='mygraph' element={<Mygraphpage/>}/>
