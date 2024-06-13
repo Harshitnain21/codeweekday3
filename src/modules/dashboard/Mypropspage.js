@@ -15,7 +15,7 @@ function Mypropspage() {
 
         const gtdata = JSON.parse(localStorage.getItem("mykey"));
         console.log(gtdata);
-        sldata(gtdata);
+        sldata(gtdata ? gtdata : []);
 
     }, [])
 
